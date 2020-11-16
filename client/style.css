@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #f2f3f7;
+    background-image: url(https://us.123rf.com/450wm/chuckchee/chuckchee1706/chuckchee170600028/80115704-stock-vector-pixel-art-game-background-with-trees-ground-grass-sky-and-clouds-.jpg?ver=6);
+}
+
+
+.category-body::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    margin: 3em 4em;
+}
+
+.container-category {
+    display: flex;
+}
+
+.category {
+    padding: 1em;
+    margin: 0 1em;
+    width: 25%;
+    border-radius: 5px;
+}
+
+.category-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.category-yellow {
+    box-shadow:2px 2px 2px 2px #f4900c;
+    color:  #f4900c;
+}
+.category-green {
+    box-shadow:2px 2px 2px 2px green;
+    color: green;
+}
+.category-red {
+    box-shadow:2px 2px 2px 2px#dd2e44;
+    color: #dd2e44 ;
+}
+.category-blue {
+    box-shadow:2px 2px 2px 2px blue;
+    color: blue;
+}
+
+.category-yellow:hover {
+    background-color: #f4900c;
+    color: white;
+}
+.category-green:hover {
+    background-color: green;
+    color: white;
+}
+.category-red:hover {
+    background-color:#dd2e44; ;
+    color: white;
+}
+.category-blue:hover {
+    background-color: blue;
+    color: wheat;
+    
+}
+
+.category-body {
+    height: auto; 
+    max-height: 45vh;
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 1em;
+    background-color: #fff;
+}
+
+.card-yellow {
+    box-shadow:0px 2px #f4900c;
+    color:  #f4900c;
+}
+.card-green {
+    box-shadow:0px 2px green;
+    color: green;
+}
+.card-red {
+    box-shadow:0px 2px #dd2e44;
+    color: #dd2e44 ;
+}
+.card-blue {
+    box-shadow:0px 2px blue;
+    color: blue;
+}
+
+.card-yellow:hover {
+    background-color: #f4900c;
+    color: white;
+}
+.card-red:hover {
+    background-color: #dd2e44;
+    color: white;
+}
+.card-green:hover {
+    background-color:  #3e721d;
+    color: white;
+}
+.card-blue:hover {
+    background-color: blue;
+    color: white;
+}
+
+.card-img {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img img {
+    width: 80%;
+}
+
+.card-body {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.card-button {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;    
+}
+
+.card-button i {
+    cursor: pointer;
+    font-size: 15px;
+    margin: 2px 0;
+}
+
+.btn-corner {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.btn-corner i {
+    font-size: 2em;
+    transition: all .5s;
+    cursor: pointer;
+}
+.btn-corner i:hover {
+    font-size: 2em;
+    transform: translateY(2px);
+}
+
+.addForm {
+    /* background-color: rgba(223, 230, 233,.7); */
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100vw; */
+    /* background-color: red; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.addForm-container {
+    margin-top: 70px;
+    border: solid coral;
+    width: 600px;
+    height: 488px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addForm-head {
+    text-align: center;
+    padding: 1em;
+    border-bottom: 1px solid gray;
+}
+
+.addForm-body {
+    padding: 1em;
+}
+
+.addForm-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.addForm-input label {
+    margin-bottom: 10px;
+}
+
+.addForm-dropdown {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+}
+.addForm-dropdown select {
+    margin-top: 8px;
+}
+.addForm-button {
+    display: flex;
+    margin-top: 2.5em;
+}
+.addForm-button button {
+    width: 100%;
+    cursor: pointer;
+}
+@media screen and (max-width: 1100px) {
+    .container-category {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .category {
+        width: 45%;
+    }
+    .container {
+        margin: 3em 1em;
+    }
+}

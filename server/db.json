@@ -1,0 +1,70 @@
+{
+  "pokemons": [
+    {
+      "type": "Water",
+      "name": "Squirtle",
+      "img": "https://cdn.bulbagarden.net/upload/thumb/3/39/007Squirtle.png/250px-007Squirtle.png",
+      "id": 3
+    },
+    {
+      "name": "Charizard",
+      "img": "https://emojis.slackmojis.com/emojis/images/1450735493/236/charizard.png",
+      "type": "Fire",
+      "id": 5
+    },
+    {
+      "type": "Fire",
+      "name": "Chikorita",
+      "img": "https://cdn.bulbagarden.net/upload/thumb/b/bf/152Chikorita.png/250px-152Chikorita.png",
+      "id": 6
+    },
+    {
+      "type": "Fire",
+      "name": "Ho-Oh",
+      "img": "https://cdn.bulbagarden.net/upload/thumb/6/67/250Ho-Oh.png/250px-250Ho-Oh.png",
+      "id": 7
+    },
+    {
+      "name": "Charmander",
+      "type": "Fire",
+      "img": "https://emojis.slackmojis.com/emojis/images/1450735852/239/charmander.png",
+      "id": 10
+    },
+    {
+      "name": "Charmeleon",
+      "type": "Fire",
+      "img": "https://cdn.bulbagarden.net/upload/thumb/4/4a/005Charmeleon.png/250px-005Charmeleon.png",
+      "id": 11
+    },
+    {
+      "name": "Quilava",
+      "img": "https://cdn.bulbagarden.net/upload/thumb/b/b6/156Quilava.png/250px-156Quilava.png",
+      "type": "Fire",
+      "id": 14
+    },
+    {
+      "name": "Togepi",
+      "img": "https://cdn.bulbagarden.net/upload/thumb/6/6b/175Togepi.png/250px-175Togepi.png",
+      "type": "Water",
+      "id": 15
+    },
+    {
+      "name": "Wartortle",
+      "img": "https://cdn.bulbagarden.net/upload/thumb/0/0c/008Wartortle.png/250px-008Wartortle.png",
+      "type": "Water",
+      "id": 16
+    },
+    {
+      "name": "Raichu",
+      "img": "https://cdn.bulbagarden.net/upload/thumb/8/88/026Raichu.png/250px-026Raichu.png",
+      "type": "Electric",
+      "id": 17
+    },
+    {
+      "name": "zarode",
+      "img": "https://cdn.bulbagarden.net/upload/thumb/a/a5/893Zarude.png/250px-893Zarude.png",
+      "type": "Fire",
+      "id": 18
+    }
+  ]
+}
